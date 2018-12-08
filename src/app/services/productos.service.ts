@@ -10,7 +10,7 @@ export class ProductosService {
 
   cargando = true;
   productos: ProductoInterface[] = [];
-  productosFiltrado: ProductosInterface[] = [];
+  productosFiltrado: ProductoInterface[] = [];
 
   constructor( private http: HttpClient ) {
 
